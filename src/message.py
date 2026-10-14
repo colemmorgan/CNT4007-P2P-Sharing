@@ -1,4 +1,5 @@
 '''Defines message spec and implements basic data operations'''
+
 from enum import IntEnum
 import struct
 

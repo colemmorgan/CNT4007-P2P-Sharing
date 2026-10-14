@@ -2,6 +2,7 @@
 from dataclasses import dataclass
 from pathlib import Path
 import math
+
 @dataclass
 class CommonCfg:
     num_preferred_neighbors: int
