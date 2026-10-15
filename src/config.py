@@ -18,16 +18,16 @@ def create_common_cfg(path:Path = Path("Common.cfg")) -> CommonCfg:
     #to hold the parsed vals
     config = {}
     #open in read
-    file = open(path, 'r')
-    for line in file:
-        line = line.strip()
-        if not line:
-            continue
-        #split by spaces
-        parts = line.split()
-        #needs to be a key value pair
-        if len(parts) == 2:
-            config[parts[0]] = parts[1]
+    with open(path, 'r') as file:
+        for line in file:
+            line = line.strip()
+            if not line:
+                continue
+            #split by spaces
+            parts = line.split()
+            #needs to be a key value pair
+            if len(parts) == 2:
+                config[parts[0]] = parts[1]
 
 
     file_size = int(config["FileSize"])
