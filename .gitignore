@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 peer_*/
 .env
+log_peer_*.log

@@ -1,0 +1,21 @@
+*   612322c Merge pull request #2 from colemmorgan/feat/config-and-logging-base
+|\  
+| *   d9c0a84 fixing merge conflict
+| |\  
+| |/  
+|/|   
+* | 4fbb0e7 uncommit ignored files, add gitignore
+* | cfc1abb Implemented connection module
+* | 9eccc27 Implemented message spec and bitfield
+* |   42bc618 Merge pull request #1 from colemmorgan/feat/config-and-logging-base
+|\ \  
+| | * 97b9b99 added unit tests for config and logger, implemented base for peer thread handling messaging
+| |/  
+| * ab66cdf implemented config and peer parser, added log cases, updated formatting
+|/  
+* 3c8160a implmented bitfield definition
+* a6a38fb Created config reader definition
+* bb969a9 Implemented logger file definitions
+* 27b80c7 Fix: revised minor errors in p2p connection definition
+* c528f2d Created connection definition
+* c6a3455 First upload and p2p message spec scaffolding
